@@ -1,0 +1,11 @@
+{
+  "name": "spectrum-sprites-prismseed",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Spectrum Sprites: PRISMSEED — a procedural js13k roguelite",
+  "scripts": {
+    "check": "node --check src/kernel.js && node --check src/systems.js && node --check src/online.js && node --check src/main.js",
+    "pack": "node scripts/pack.mjs"
+  }
+}
